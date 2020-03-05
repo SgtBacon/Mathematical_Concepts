@@ -1,0 +1,11 @@
+C:\Users\JHELM22\source\repos\MathematicalConcepts\Mathematical_Concepts\Concepts\Concepts\bin\Debug\netcoreapp2.2\Concepts.deps.json
+C:\Users\JHELM22\source\repos\MathematicalConcepts\Mathematical_Concepts\Concepts\Concepts\bin\Debug\netcoreapp2.2\Concepts.runtimeconfig.json
+C:\Users\JHELM22\source\repos\MathematicalConcepts\Mathematical_Concepts\Concepts\Concepts\bin\Debug\netcoreapp2.2\Concepts.runtimeconfig.dev.json
+C:\Users\JHELM22\source\repos\MathematicalConcepts\Mathematical_Concepts\Concepts\Concepts\bin\Debug\netcoreapp2.2\Concepts.dll
+C:\Users\JHELM22\source\repos\MathematicalConcepts\Mathematical_Concepts\Concepts\Concepts\bin\Debug\netcoreapp2.2\Concepts.pdb
+C:\Users\JHELM22\source\repos\MathematicalConcepts\Mathematical_Concepts\Concepts\Concepts\obj\Debug\netcoreapp2.2\Concepts.csprojAssemblyReference.cache
+C:\Users\JHELM22\source\repos\MathematicalConcepts\Mathematical_Concepts\Concepts\Concepts\obj\Debug\netcoreapp2.2\Concepts.csproj.CoreCompileInputs.cache
+C:\Users\JHELM22\source\repos\MathematicalConcepts\Mathematical_Concepts\Concepts\Concepts\obj\Debug\netcoreapp2.2\Concepts.AssemblyInfoInputs.cache
+C:\Users\JHELM22\source\repos\MathematicalConcepts\Mathematical_Concepts\Concepts\Concepts\obj\Debug\netcoreapp2.2\Concepts.AssemblyInfo.cs
+C:\Users\JHELM22\source\repos\MathematicalConcepts\Mathematical_Concepts\Concepts\Concepts\obj\Debug\netcoreapp2.2\Concepts.dll
+C:\Users\JHELM22\source\repos\MathematicalConcepts\Mathematical_Concepts\Concepts\Concepts\obj\Debug\netcoreapp2.2\Concepts.pdb
