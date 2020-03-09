@@ -90,11 +90,18 @@ namespace Concepts
         }
 
         //TODO Iterate through all ints less than x and if it divides x, add it into the List, output to the screen all values within the List, return the list for use in GCF function
+        //TODO Add negative number integration
         public static List<int> FactorList(int x)
         {
             List<int> NewList = new List<int>();
 
-
+            for (int i = 0; i <= x; i++)
+            {
+                if (IsDivisible(x, i))
+                {
+                    NewList.Add(i);
+                }
+            }
             foreach (var obj in NewList)
             {
                 Console.WriteLine("{0} is a factor of {1}", obj, x);
