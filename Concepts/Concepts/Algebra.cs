@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Numerics;
 using System.Text;
 
 namespace Concepts
@@ -87,6 +88,21 @@ namespace Concepts
 
             return true;
         }
+
+        //TODO Iterate through all ints less than x and if it divides x, add it into the List, output to the screen all values within the List, return the list for use in GCF function
+        public static List<int> FactorList(int x)
+        {
+            List<int> NewList = new List<int>();
+
+
+            foreach (var obj in NewList)
+            {
+                Console.WriteLine("{0} is a factor of {1}", obj, x);
+            }
+
+            return NewList;
+        }
+        //TODO add functions such as GCF, LCM, GCD, whatever
 
 
     }
