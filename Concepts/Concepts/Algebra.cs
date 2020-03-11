@@ -111,6 +111,33 @@ namespace Concepts
         }
         //TODO add functions such as GCF, LCM, GCD, whatever
 
+        //TODO FIX THIS. Returns negative at x=20
+        public static int Factorial(int x)
+        {
+            int y = 1;
+            if (x < 0)
+            {
+                Console.WriteLine("Negative factorials not included");
+                return 0;
+            }
+            else if (x > 0)
+            {
+                try
+                {
+                    for (int i = 0; i < x; i++)
+                    {
+                        y = y * (x - i);
+                    }
 
+                    return y;
+                }
+                catch (OverflowException)
+                {
+                    Console.WriteLine("The resulting number is too large to be included!");
+                }
+            }
+
+            return y;
+        }
     }
 }

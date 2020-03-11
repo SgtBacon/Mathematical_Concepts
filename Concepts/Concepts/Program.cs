@@ -16,6 +16,7 @@ namespace Concepts
             Console.WriteLine(Algebra.IsDivisible(0, -1));
             Console.WriteLine(Algebra.IsPrime(1));
             Algebra.FactorList(1024);
+            Console.WriteLine(Algebra.Factorial(20));
 
             Console.WriteLine("Welcome to my mathematical concepts project.");
             Console.WriteLine("This is a very simple project designed to be used as a calculator of sorts, \nin order to give me more understanding of various concepts in math when applied in programming.");
