@@ -111,10 +111,9 @@ namespace Concepts
         }
         //TODO add functions such as GCF, LCM, GCD, whatever
 
-        //TODO FIX THIS. Returns negative at x=20
-        public static int Factorial(int x)
+        public static BigInteger Factorial(int x)  //Factorial calculator. Uses BigInteger as it has no MaxValue
         {
-            int y = 1;
+            BigInteger y = 1;
             if (x < 0)
             {
                 Console.WriteLine("Negative factorials not included");
@@ -131,13 +130,30 @@ namespace Concepts
 
                     return y;
                 }
-                catch (OverflowException)
+                catch (OutOfMemoryException) //Exception to throw just in case
                 {
                     Console.WriteLine("The resulting number is too large to be included!");
+                    return 0;
                 }
             }
 
-            return y;
+            return y; //will return 1 for 0, which is correct
+        }
+
+        public static int Summation(int num) // Summation function
+        {
+            if (num < 0)
+            {
+                Console.WriteLine("Summation of negative numbers not currently included.");
+                return 0;
+            }
+            else
+            {
+                int x = Convert.ToInt32(Division(Multiplication(num, Addition(num, 1)), 2));
+                //int x = Convert.ToInt32((num * (num + 1))/2)  //Here is a more simplified version of the above line, using functions built into the IDE
+                return x;
+            }
+
         }
     }
 }
